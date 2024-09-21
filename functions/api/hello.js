@@ -1,4 +1,4 @@
-export async function onRequset(context) {
+export async function onRequest(context) {
 
     return new Response(JSON.stringify({ message: "Hello from the hello.js api!" }), {
         headers: {
